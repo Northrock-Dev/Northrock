@@ -45,7 +45,8 @@ export default function CodeList({ codes, expandedCodes, onCodeToggle }: CodeLis
                 </h3>
               </div>
               <CollapsibleTrigger asChild>
-                <Button variant="ghost" size="sm" className="text-primary hover:text-primary/80 p-1">
+                <Button variant="ghost" size="sm" className="text-primary hover:bg-primary/10 p-1 flex items-center gap-1">
+                  <span className="text-xs hidden md:inline">Show {expandedCodes.includes(code.id) ? 'less' : 'more'}</span>
                   <ChevronDown className={`h-5 w-5 transition-transform ${expandedCodes.includes(code.id) ? 'transform rotate-180' : ''}`} />
                   <span className="sr-only">Toggle</span>
                 </Button>
@@ -54,14 +55,14 @@ export default function CodeList({ codes, expandedCodes, onCodeToggle }: CodeLis
             <p className="text-gray-700 mt-1">{code.title}</p>
           </div>
 
-          <CollapsibleContent className="p-4 bg-gray-50">
+          <CollapsibleContent className="p-4 bg-white border-t border-primary/20">
             <div className="mb-3">
               <h4 className="text-sm font-semibold text-primary mb-1">Description</h4>
               <p className="text-gray-700">{code.description}</p>
             </div>
             <div>
               <h4 className="text-sm font-semibold text-primary mb-1">Example Usage</h4>
-              <div className="bg-white rounded p-3 font-mono text-sm text-gray-700 border border-primary/20">
+              <div className="bg-gray-50 rounded p-3 font-mono text-sm text-gray-700 border border-primary/20">
                 {code.example}
               </div>
             </div>

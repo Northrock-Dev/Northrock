@@ -673,4 +673,381 @@ export const policeCodes: PoliceCode[] = [
     example: "Officer: Dispatch, I have a subject in custody for 530, was conducting traffic stops in a replica police vehicle.",
     category: "penal-codes"
   }
+,
+  {
+    id: 64,
+    code: "Code 4",
+    title: "No Further Assistance Needed",
+    description: "Situation is under control, no further assistance is required.",
+    example: "Officer: Dispatch, Code 4 at the traffic collision, no injuries and parties are exchanging information.",
+    category: "response-codes"
+  },
+  {
+    id: 65,
+    code: "Code 5",
+    title: "Stakeout",
+    description: "Officers are conducting a stakeout at a location.",
+    example: "Dispatch: Undercover units on Code 5 at the suspect residence, maintain radio silence unless emergency.",
+    category: "response-codes"
+  },
+  {
+    id: 66,
+    code: "Code 6",
+    title: "Out at Location",
+    description: "Officer is out of vehicle and at a specified location.",
+    example: "Officer: Dispatch, I'll be Code 6 at the north entrance of the mall to take that report.",
+    category: "response-codes"
+  },
+  {
+    id: 67,
+    code: "Code 7",
+    title: "Meal Break",
+    description: "Officer is taking a meal break.",
+    example: "Officer: Dispatch, requesting Code 7 at the diner on Route 68.",
+    category: "response-codes"
+  },
+  {
+    id: 68,
+    code: "10-36",
+    title: "Time Check",
+    description: "Request for the current time.",
+    example: "Officer: Dispatch, 10-36. Dispatch: Current time is 2142 hours.",
+    category: "10-codes"
+  },
+  {
+    id: 69,
+    code: "10-39",
+    title: "Message Delivered",
+    description: "A message has been delivered to the intended recipient.",
+    example: "Dispatch: 10-39 to Officer Taylor about the county-wide BOLO.",
+    category: "10-codes"
+  },
+  {
+    id: 70,
+    code: "10-40",
+    title: "Radio Silent",
+    description: "Officer is radio silent or away from the vehicle temporarily.",
+    example: "Officer: Dispatch, I'll be 10-40 while interviewing the witness.",
+    category: "10-codes"
+  },
+  {
+    id: 71,
+    code: "10-41",
+    title: "Beginning Tour of Duty",
+    description: "Officer is starting their shift.",
+    example: "Officer: Dispatch, 10-41, Officer Mitchell badge #432 reporting for day shift.",
+    category: "10-codes"
+  },
+  {
+    id: 72,
+    code: "10-42",
+    title: "Ending Tour of Duty",
+    description: "Officer is ending their shift.",
+    example: "Officer: Dispatch, 10-42, Officer Mitchell ending night shift and returning to station.",
+    category: "10-codes"
+  },
+  {
+    id: 73,
+    code: "10-43",
+    title: "Information",
+    description: "Officer is requesting to provide or receive information.",
+    example: "Officer: Dispatch, 10-43 regarding that stolen vehicle from this morning.",
+    category: "10-codes"
+  },
+  {
+    id: 74,
+    code: "10-49",
+    title: "Proceed To/En Route",
+    description: "Officer is en route to a location.",
+    example: "Dispatch: Unit 4, 10-49 to Sandy Shores for a disturbance call.",
+    category: "10-codes"
+  },
+  {
+    id: 75,
+    code: "10-61",
+    title: "Personnel In Area",
+    description: "There are on-duty personnel in the area who can respond.",
+    example: "Dispatch: 10-61 near Olympic Freeway who can respond to accident.",
+    category: "10-codes"
+  },
+  {
+    id: 76,
+    code: "10-62",
+    title: "Reply to Message",
+    description: "A reply to a previously transmitted message.",
+    example: "Officer: Dispatch, 10-62 to your request for backup, I'm 2 minutes out.",
+    category: "10-codes"
+  },
+  {
+    id: 77,
+    code: "10-65",
+    title: "Net Message Assignment",
+    description: "Awaiting assignment of net message.",
+    example: "Dispatch: All units be advised, 10-65 for SWAT deployment details.",
+    category: "10-codes"
+  },
+  {
+    id: 78,
+    code: "10-73",
+    title: "Speed Warning",
+    description: "Warning about speed trap or radar operation.",
+    example: "Officer: Dispatch, I'll be 10-73 on Route 68 for the next hour.",
+    category: "10-codes"
+  },
+  {
+    id: 79,
+    code: "10-89",
+    title: "Bomb Threat",
+    description: "A bomb threat has been received.",
+    example: "Dispatch: All units, 10-89 at the city hall. Evacuations in progress.",
+    category: "10-codes"
+  },
+  {
+    id: 80,
+    code: "10-94",
+    title: "Drag Racing",
+    description: "Illegal street racing in progress.",
+    example: "Officer: Dispatch, 10-94 on Great Ocean Highway, multiple vehicles involved.",
+    category: "10-codes"
+  },
+  {
+    id: 81,
+    code: "10-100",
+    title: "Restroom Break",
+    description: "Officer needs to take a restroom break.",
+    example: "Officer: Dispatch, 10-100 at the gas station on Panorama Drive.",
+    category: "10-codes"
+  },
+  {
+    id: 82,
+    code: "11-7",
+    title: "Prowler",
+    description: "Report of a prowler or suspicious person lurking around property.",
+    example: "Dispatch: Unit 6, respond to an 11-7 at 345 Eclipse Boulevard, backyard area.",
+    category: "11-codes"
+  },
+  {
+    id: 83,
+    code: "11-25",
+    title: "Traffic Hazard",
+    description: "Hazard in the roadway causing traffic issues.",
+    example: "Officer: Dispatch, reporting an 11-25 on Route 1, debris in lanes.",
+    category: "11-codes"
+  },
+  {
+    id: 84,
+    code: "11-27",
+    title: "Driver's License Check",
+    description: "Request to run a driver's license through the system.",
+    example: "Officer: Dispatch, 11-27 on Sarah Johnson, DOB 4/15/1986.",
+    category: "11-codes"
+  },
+  {
+    id: 85,
+    code: "11-28",
+    title: "Vehicle Registration Check",
+    description: "Request to run a vehicle registration through the system.",
+    example: "Officer: Dispatch, 11-28 on California plate 7ABC123.",
+    category: "11-codes"
+  },
+  {
+    id: 86,
+    code: "11-29",
+    title: "Check for Wanted Status",
+    description: "Request to check if a person or vehicle is wanted.",
+    example: "Officer: Dispatch, 11-29 on the driver John Smith from that traffic stop.",
+    category: "11-codes"
+  },
+  {
+    id: 87,
+    code: "11-65",
+    title: "Signal Light Out",
+    description: "Traffic signal light is malfunctioning or out of service.",
+    example: "Officer: Dispatch, 11-65 at the intersection of Hawick and Alta Street.",
+    category: "11-codes"
+  },
+  {
+    id: 88,
+    code: "11-66",
+    title: "Defective Traffic Light",
+    description: "Traffic light is operating improperly or defectively.",
+    example: "Officer: Dispatch, 11-66 at the intersection of Elgin Avenue and Power Street, stuck on red all ways.",
+    category: "11-codes"
+  },
+  {
+    id: 89,
+    code: "11-71",
+    title: "Fire Alarm",
+    description: "Fire alarm has been activated.",
+    example: "Dispatch: Unit 3, respond to an 11-71, at Arcadius Business Center.",
+    category: "11-codes"
+  },
+  {
+    id: 90,
+    code: "11-95",
+    title: "Person in Custody",
+    description: "A person is in police custody.",
+    example: "Officer: Dispatch, 11-95 one male, en route to booking.",
+    category: "11-codes"
+  },
+  {
+    id: 91,
+    code: "11-96",
+    title: "Mental Case",
+    description: "Dealing with a person with mental health issues.",
+    example: "Officer: Dispatch, 11-96 on Legion Square, requesting mental health unit to respond.",
+    category: "11-codes"
+  },
+  {
+    id: 92,
+    code: "11-97",
+    title: "Officer Arrived on Scene",
+    description: "The officer has arrived at the dispatched location.",
+    example: "Officer: Dispatch, 11-97 at the shoplifting call.",
+    category: "11-codes"
+  },
+  {
+    id: 93,
+    code: "11-99",
+    title: "Officer Needs Emergency Assistance",
+    description: "Officer needs emergency help, highest priority.",
+    example: "Officer: 11-99! 11-99! Shots fired, officer down at the bank robbery!",
+    category: "11-codes"
+  },
+  {
+    id: 94,
+    code: "187",
+    title: "Homicide",
+    description: "A murder has been committed. References California Penal Code section 187.",
+    example: "Dispatch: All units, 187 reported at the motel on Route 68, homicide detectives en route.",
+    category: "penal-codes"
+  },
+  {
+    id: 95,
+    code: "207",
+    title: "Kidnapping",
+    description: "A kidnapping has occurred. References California Penal Code section 207.",
+    example: "Officer: Dispatch, possible 207 in progress, witness reporting child forced into vehicle at the elementary school.",
+    category: "penal-codes"
+  },
+  {
+    id: 96,
+    code: "211",
+    title: "Robbery",
+    description: "A robbery has occurred. References California Penal Code section 211.",
+    example: "Dispatch: All units in the area, 211 in progress at the 24/7 convenience store on Innocence Boulevard.",
+    category: "penal-codes"
+  },
+  {
+    id: 97,
+    code: "240",
+    title: "Assault",
+    description: "An assault has occurred. References California Penal Code section 240.",
+    example: "Officer: Dispatch, responding to a 240 at the Yellow Jack Inn, two subjects involved.",
+    category: "penal-codes"
+  },
+  {
+    id: 98,
+    code: "245",
+    title: "Assault with Deadly Weapon",
+    description: "An assault with a deadly weapon has occurred. References California Penal Code section 245.",
+    example: "Dispatch: All units, 245 reported at the Vanilla Unicorn, suspect armed with a knife.",
+    category: "penal-codes"
+  },
+  {
+    id: 99,
+    code: "261",
+    title: "Sexual Assault",
+    description: "A sexual assault has occurred. References California Penal Code section 261.",
+    example: "Officer: Dispatch, 261 report taken at the hospital, detective requested on scene.",
+    category: "penal-codes"
+  },
+  {
+    id: 100,
+    code: "288",
+    title: "Lewd Acts with Minor",
+    description: "Lewd or lascivious acts involving a minor. References California Penal Code section 288.",
+    example: "Dispatch: Detective unit, 288 case reported at the school, immediate response required.",
+    category: "penal-codes"
+  },
+  {
+    id: 101,
+    code: "415",
+    title: "Disturbing the Peace",
+    description: "Someone is disturbing the peace. References California Penal Code section 415.",
+    example: "Officer: Dispatch, responding to a 415 at the apartment complex on Forum Drive, loud party complaint.",
+    category: "penal-codes"
+  },
+  {
+    id: 102,
+    code: "417",
+    title: "Person with a Weapon",
+    description: "Person displaying or brandishing a weapon. References California Penal Code section 417.",
+    example: "Dispatch: Units in Vespucci Beach area, 417 reported, male subject waving a handgun.",
+    category: "penal-codes"
+  },
+  {
+    id: 103,
+    code: "459",
+    title: "Burglary",
+    description: "A burglary has occurred or is in progress. References California Penal Code section 459.",
+    example: "Officer: Dispatch, responding to a 459 alarm at the jewelry store on Portola Drive.",
+    category: "penal-codes"
+  },
+  {
+    id: 104,
+    code: "480",
+    title: "Hit and Run Felony",
+    description: "Hit and run accident with injuries. References California Vehicle Code section 20001.",
+    example: "Dispatch: All units be on the lookout for a 480, black SUV heading eastbound on Del Perro Freeway, pedestrian struck.",
+    category: "penal-codes"
+  },
+  {
+    id: 105,
+    code: "484",
+    title: "Theft/Petty Theft",
+    description: "A theft has occurred. References California Penal Code section 484.",
+    example: "Officer: Dispatch, taking a 484 report at the convenience store, shoplifter fled the scene.",
+    category: "penal-codes"
+  },
+  {
+    id: 106,
+    code: "487",
+    title: "Grand Theft",
+    description: "A theft of high value has occurred. References California Penal Code section 487.",
+    example: "Dispatch: Unit 4, respond to a 487 at the marina, boat reportedly stolen.",
+    category: "penal-codes"
+  },
+  {
+    id: 107,
+    code: "503",
+    title: "Auto Theft",
+    description: "A vehicle has been stolen. References California Vehicle Code.",
+    example: "Officer: Dispatch, taking a 503 report, vehicle stolen from the parking garage on Alta Street.",
+    category: "penal-codes"
+  },
+  {
+    id: 108,
+    code: "594",
+    title: "Vandalism",
+    description: "Malicious mischief, property damage. References California Penal Code section 594.",
+    example: "Officer: Dispatch, responding to a 594 at the skate park, graffiti reported.",
+    category: "penal-codes"
+  },
+  {
+    id: 109,
+    code: "647",
+    title: "Disorderly Conduct",
+    description: "Disorderly conduct, including public intoxication. References California Penal Code section 647.",
+    example: "Dispatch: Unit 5, 647 reported outside the tequi-la-la nightclub, intoxicated male causing disturbance.",
+    category: "penal-codes"
+  },
+  {
+    id: 110,
+    code: "5150",
+    title: "Mental Health Hold",
+    description: "Involuntary psychiatric hold for evaluation. References California Welfare and Institutions Code section 5150.",
+    example: "Officer: Dispatch, we have a 5150 situation at the bus station, subject threatening self-harm.",
+    category: "penal-codes"
+  }
 ];
