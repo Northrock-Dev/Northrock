@@ -787,7 +787,7 @@ export const policeCodes: PoliceCode[] = [
     category: "10-codes"
   },
   {
-    id: 78,
+    id: 1078,
     code: "10-73",
     title: "Speed Warning",
     description: "Warning about speed trap or radar operation.",
@@ -795,7 +795,7 @@ export const policeCodes: PoliceCode[] = [
     category: "10-codes"
   },
   {
-    id: 79,
+    id: 1079,
     code: "10-89",
     title: "Bomb Threat",
     description: "A bomb threat has been received.",
@@ -803,7 +803,7 @@ export const policeCodes: PoliceCode[] = [
     category: "10-codes"
   },
   {
-    id: 80,
+    id: 1080,
     code: "10-94",
     title: "Drag Racing",
     description: "Illegal street racing in progress.",
@@ -811,7 +811,7 @@ export const policeCodes: PoliceCode[] = [
     category: "10-codes"
   },
   {
-    id: 81,
+    id: 1081,
     code: "10-100",
     title: "Restroom Break",
     description: "Officer needs to take a restroom break.",
@@ -819,7 +819,7 @@ export const policeCodes: PoliceCode[] = [
     category: "10-codes"
   },
   {
-    id: 82,
+    id: 1082,
     code: "11-7",
     title: "Prowler",
     description: "Report of a prowler or suspicious person lurking around property.",
@@ -827,7 +827,7 @@ export const policeCodes: PoliceCode[] = [
     category: "11-codes"
   },
   {
-    id: 83,
+    id: 1083,
     code: "11-25",
     title: "Traffic Hazard",
     description: "Hazard in the roadway causing traffic issues.",
@@ -835,7 +835,7 @@ export const policeCodes: PoliceCode[] = [
     category: "11-codes"
   },
   {
-    id: 84,
+    id: 1084,
     code: "11-27",
     title: "Driver's License Check",
     description: "Request to run a driver's license through the system.",
