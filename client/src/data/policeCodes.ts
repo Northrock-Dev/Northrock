@@ -707,7 +707,7 @@ export const policeCodes: PoliceCode[] = [
     category: "response-codes"
   },
   {
-    id: 68,
+    id: 1068,
     code: "10-36",
     title: "Time Check",
     description: "Request for the current time.",
@@ -715,7 +715,7 @@ export const policeCodes: PoliceCode[] = [
     category: "10-codes"
   },
   {
-    id: 69,
+    id: 1069,
     code: "10-39",
     title: "Message Delivered",
     description: "A message has been delivered to the intended recipient.",
@@ -723,7 +723,7 @@ export const policeCodes: PoliceCode[] = [
     category: "10-codes"
   },
   {
-    id: 70,
+    id: 1070,
     code: "10-40",
     title: "Radio Silent",
     description: "Officer is radio silent or away from the vehicle temporarily.",
@@ -731,7 +731,7 @@ export const policeCodes: PoliceCode[] = [
     category: "10-codes"
   },
   {
-    id: 71,
+    id: 1071,
     code: "10-41",
     title: "Beginning Tour of Duty",
     description: "Officer is starting their shift.",
@@ -739,7 +739,7 @@ export const policeCodes: PoliceCode[] = [
     category: "10-codes"
   },
   {
-    id: 72,
+    id: 1072,
     code: "10-42",
     title: "Ending Tour of Duty",
     description: "Officer is ending their shift.",
@@ -747,7 +747,7 @@ export const policeCodes: PoliceCode[] = [
     category: "10-codes"
   },
   {
-    id: 73,
+    id: 1073,
     code: "10-43",
     title: "Information",
     description: "Officer is requesting to provide or receive information.",
@@ -1049,5 +1049,86 @@ export const policeCodes: PoliceCode[] = [
     description: "Involuntary psychiatric hold for evaluation. References California Welfare and Institutions Code section 5150.",
     example: "Officer: Dispatch, we have a 5150 situation at the bus station, subject threatening self-harm.",
     category: "penal-codes"
+  }
+,
+  {
+    id: 111,
+    code: "7500",
+    title: "Felony Pursuit",
+    description: "Officer is in pursuit of a suspect who has committed a felony.",
+    example: "Officer: Dispatch, Code 7500, I'm in pursuit of a felony suspect last seen on I-5 heading north.",
+    category: "penal-codes"
+  },
+  {
+    id: 112,
+    code: "10000",
+    title: "Major Disaster",
+    description: "Major incident or disaster requiring all available resources.",
+    example: "Dispatch: All units be advised, Code 10000 at downtown Los Santos due to earthquake damage.",
+    category: "response-codes"
+  },
+  {
+    id: 113,
+    code: "998",
+    title: "Officer Involved Shooting",
+    description: "Indicates an officer has discharged their firearm.",
+    example: "Officer: Dispatch, 998 at my location, need supervisor and investigators to respond.",
+    category: "response-codes"
+  },
+  {
+    id: 114,
+    code: "995",
+    title: "Officer Needs Transport",
+    description: "Officer requires transportation.",
+    example: "Officer: Dispatch, 995 at Sandy Shores, need transport back to the station.",
+    category: "response-codes"
+  },
+  {
+    id: 115,
+    code: "901",
+    title: "Request for Tow Truck",
+    description: "Officer needs a tow truck at their location.",
+    example: "Officer: Dispatch, 901 for an abandoned vehicle blocking traffic on Strawberry Avenue.",
+    category: "response-codes"
+  },
+  {
+    id: 116,
+    code: "902",
+    title: "Request for Ambulance",
+    description: "Officer needs an ambulance at their location.",
+    example: "Officer: Dispatch, 902 at the traffic accident, victim with chest pains.",
+    category: "response-codes"
+  },
+  {
+    id: 117,
+    code: "904",
+    title: "Fire at Location",
+    description: "Fire reported at the officer's location.",
+    example: "Officer: Dispatch, 904 at the vacant building on Capital Boulevard, structure fully involved.",
+    category: "response-codes"
+  },
+  {
+    id: 118,
+    code: "920",
+    title: "Missing Person",
+    description: "Report of a missing person.",
+    example: "Dispatch: Unit 3, respond to a 920 at Vinewood Hills, 10-year-old last seen 3 hours ago.",
+    category: "response-codes"
+  },
+  {
+    id: 119,
+    code: "925",
+    title: "Suspicious Vehicle",
+    description: "Vehicle that appears suspicious or out of place.",
+    example: "Officer: Dispatch, investigating a 925 in the school parking lot after hours.",
+    category: "response-codes"
+  },
+  {
+    id: 120,
+    code: "10-90",
+    title: "Bank Alarm",
+    description: "Alarm activated at a bank or financial institution.",
+    example: "Dispatch: All units in the area, 10-90 at the Fleeca Bank on Route 68, silent alarm activated.",
+    category: "10-codes"
   }
 ];
