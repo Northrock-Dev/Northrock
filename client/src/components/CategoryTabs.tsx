@@ -18,8 +18,8 @@ export default function CategoryTabs({
           onClick={() => onCategoryChange('all')}
           className={`px-4 py-2 rounded-lg text-sm font-medium transition-colors duration-200 ${
             activeCategory === 'all'
-              ? 'bg-primary-600 dark:bg-primary-700 text-white border-2 border-primary-300 dark:border-primary-500'
-              : 'bg-neutral-100 dark:bg-neutral-800 text-neutral-700 dark:text-neutral-300 hover:bg-primary-100 dark:hover:bg-neutral-700'
+              ? 'bg-primary text-white border-2 border-primary'
+              : 'bg-white text-black hover:bg-primary/10 border-2 border-primary'
           }`}
         >
           All Codes
@@ -31,8 +31,8 @@ export default function CategoryTabs({
             onClick={() => onCategoryChange(category)}
             className={`px-4 py-2 rounded-lg text-sm font-medium transition-colors duration-200 ${
               activeCategory === category
-                ? 'bg-primary-600 dark:bg-primary-700 text-white border-2 border-primary-300 dark:border-primary-500'
-                : 'bg-neutral-100 dark:bg-neutral-800 text-neutral-700 dark:text-neutral-300 hover:bg-primary-100 dark:hover:bg-neutral-700'
+                ? 'bg-primary text-white border-2 border-primary'
+                : 'bg-white text-black hover:bg-primary/10 border-2 border-primary'
             }`}
           >
             {categoryLabels[category]}

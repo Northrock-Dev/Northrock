@@ -1,5 +1,4 @@
 import SearchBar from './SearchBar';
-import { ThemeToggle } from './ui/theme-toggle';
 
 interface HeaderProps {
   searchQuery: string;
@@ -8,7 +7,7 @@ interface HeaderProps {
 
 export default function Header({ searchQuery, onSearchChange }: HeaderProps) {
   return (
-    <header className="bg-primary-600 dark:bg-primary-900 bg-police-pattern text-white shadow-lg">
+    <header className="bg-primary bg-police-pattern text-white shadow-lg">
       <div className="container mx-auto px-4 py-6 md:py-8">
         <div className="flex flex-col md:flex-row md:justify-between md:items-center space-y-4 md:space-y-0">
           <div className="flex items-center justify-between">
@@ -19,18 +18,12 @@ export default function Header({ searchQuery, onSearchChange }: HeaderProps) {
                 </svg>
                 Northrock RP
               </h1>
-              <p className="text-primary-100 dark:text-primary-200 text-sm md:text-base">California Police Codes Database</p>
-            </div>
-            <div className="md:hidden">
-              <ThemeToggle />
+              <p className="text-white text-sm md:text-base">California Police Codes Database</p>
             </div>
           </div>
           
           <div className="flex items-center gap-3">
             <SearchBar searchQuery={searchQuery} onSearchChange={onSearchChange} />
-            <div className="hidden md:block">
-              <ThemeToggle />
-            </div>
           </div>
         </div>
       </div>
